@@ -1,0 +1,42 @@
+//
+//  PrefixHeader.pch
+//  Happyshops
+//
+//  Created by TanZhiWei on 16/4/1.
+//  Copyright © 2016年 TanZhiWei. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+//界面
+#import "LoginViewController.h"
+#import "RegisterViewController.h"
+#import "TUser.h"
+#import "TOrder.h"
+#import "resetPwdview.h"
+#import "TZWDBModel.h"
+#import "MainViewController.h"
+#import <FMDatabase.h>
+#import "MineViewController.h"
+//工具
+#import "Macro.h"
+#import "UIImage+TransformColorAndImage.h"
+//请求数据
+#import "TZWRequestModel.h"
+//三方库
+#import <AFNetworking.h>
+#import<RDVTabBarController.h>
+#import<MMProgressHUD.h>
+#import "ChameleonMacros.h"
+#import <EAIntroView.h>
+//网络接口
+//
+//
+// 数据库
+#import <AVOSCloud/AVOSCloud.h>
+#endif /* PrefixHeader_pch */
